@@ -1,0 +1,395 @@
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\obj\Debug\Assembly-CSharp.dll
+C:\Users\Gav\Desktop\FYP Prototype\RPG Movement\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Cavin\Desktop\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.pdb
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.pdb
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEditor.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.xml
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEditor.xml
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\MarkAndrew\Desktop\RPG Movement Full Build 5Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Area51Student\Downloads\RPG Movement Full Build 6 Oct\RPG Movement Full Build 5Oct\obj\Debug\Assembly-CSharp.pdb
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\obj\Debug\Assembly-CSharp.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\obj\Debug\Assembly-CSharp.pdb
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEditor.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEngine.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Mono.Cecil.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Unity.DataContract.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEngine.xml
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEditor.xml
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Game Development\Research Methodology\Amava_PrototypeDemo_6.10.2016\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\Game Development\Github\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
+C:\Users\StudioJr\Desktop\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+C:\Users\MarkAndrew\Documents\GitHub\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEditor.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEngine.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEngine.xml
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEditor.xml
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\obj\Debug\Assembly-CSharp.dll
+C:\Users\andre\Downloads\Compressed\iRPG---Team-Aamsara-master\obj\Debug\Assembly-CSharp.pdb
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEditor.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEngine.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEngine.xml
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEditor.xml
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\andre\Downloads\Compressed\v1\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\andre\Downloads\Compressed\v1\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\andre\Downloads\Compressed\v1\obj\Debug\Assembly-CSharp.dll
+C:\Users\andre\Downloads\Compressed\v1\obj\Debug\Assembly-CSharp.pdb
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEditor.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEngine.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEngine.xml
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEditor.xml
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\andre\Downloads\Compressed\Using\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\andre\Downloads\Compressed\Using\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\andre\Downloads\Compressed\Using\obj\Debug\Assembly-CSharp.dll
+C:\Users\andre\Downloads\Compressed\Using\obj\Debug\Assembly-CSharp.pdb
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.dll
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.xml
+D:\Game Development\Github\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+C:\Users\andre\Documents\GitHub\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+C:\Users\Area51Student\Downloads\Mark\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\StudioJr\Desktop\Desktop File\FYP Prototype\Github Amava\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+C:\Users\Cavin\Desktop\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEditor.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.dll
+C:\Users\0112873\Desktop\iRPG---Team-Aamsara\obj\Debug\Assembly-CSharp.pdb
