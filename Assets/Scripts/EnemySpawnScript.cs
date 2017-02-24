@@ -10,8 +10,8 @@ public class EnemySpawnScript : MonoBehaviour
 	public GameObject EnemyPrefab;
 	public GameObject EnemyL;
 	public GameObject SpawnObject;
-	//public EnemyAttributeListScript enemyAttributeList;
-	//public EnemyAttribute eA;
+	public EnemyAttributeListScript enemyAttributeList;
+	public EnemyAttribute eA;
 	float SpawnObjectWidth;
 	float SpawnObjectHeight;
 	[Range(1.0f, 3.0f)]
@@ -45,6 +45,7 @@ public class EnemySpawnScript : MonoBehaviour
 
 	void Start()
 	{
+		enemyAttributeList = GameObject.FindGameObjectWithTag("GameManager").GetComponent<EnemyAttributeListScript>();
 		GameObject SpawnPlatform = (GameObject)Instantiate (SpawnObject, transform.position, Quaternion.identity);
 		//Spawn = EnemySpawnScript.SpawnPattern.Area;
 		SpawnObjectWidth = SpawnObject.GetComponent<Renderer> ().bounds.size.x;
@@ -71,11 +72,11 @@ public class EnemySpawnScript : MonoBehaviour
 			}
 		}
 			
-		/*foreach (EnemyAttribute n in enemyAttributeList.enemysattribute) {
+		foreach (EnemyAttribute n in enemyAttributeList.enemysattribute) {
 			if(n.EnemyName == EnemyPrefab.name) {
 				eA = n.Clone ();
 			}
-		}*/
+		}
 	}
 
 	IEnumerator Spawner()
@@ -130,8 +131,8 @@ public class EnemySpawnScript : MonoBehaviour
 			float randomX = Random.Range (transform.position.x - Area, transform.position.x + Area);
 			float randomZ = Random.Range (transform.position.z - Area, transform.position.z + Area);
 			GameObject enemy = (GameObject)Instantiate (EnemyPrefab, new Vector3 (randomX, transform.position.y, randomZ), Quaternion.identity);
-			//enemy.GetComponent<EnemyAttibute> ().eA = eA.Clone ();
-			enemy.transform.SetParent (EnemyL.transform);
+			enemy.GetComponent<EnemyAttibute> ().eA = eA.Clone ();
+			//enemy.transform.SetParent (EnemyL.transform);
 			EnemyList.Add (enemy);
 
 			SpawnTimer = SpawnRate;
@@ -151,8 +152,8 @@ public class EnemySpawnScript : MonoBehaviour
 			//float distanceZ = Mathf.Sqrt ((Mathf.Pow (randomZ, 2.0f)) + (Mathf.Pow (transform.position.z, 2.0f)));
 			if (distance > distanceRange && distance < Area) {
 				GameObject enemy = (GameObject)Instantiate (EnemyPrefab, new Vector3 (randomX, transform.position.y, randomZ), Quaternion.identity);
-				//enemy.GetComponent<EnemyAttibute> ().eA = eA.Clone ();
-				enemy.transform.SetParent (EnemyL.transform);
+				enemy.GetComponent<EnemyAttibute> ().eA = eA.Clone ();
+				//enemy.transform.SetParent (EnemyL.transform);
 				EnemyList.Add (enemy);
 				SpawnTimer = SpawnRate;
 				SpawnedEnemyAmt++;
@@ -171,8 +172,8 @@ public class EnemySpawnScript : MonoBehaviour
 			randomX = randX();
 			randomZ = randZ();
 			GameObject enemy = (GameObject)Instantiate (EnemyPrefab, new Vector3 (randomX, transform.position.y, randomZ), Quaternion.identity);
-			//enemy.GetComponent<EnemyAttibute> ().eA = eA.Clone ();
-			enemy.transform.SetParent (EnemyL.transform);
+			enemy.GetComponent<EnemyAttibute> ().eA = eA.Clone ();
+			//enemy.transform.SetParent (EnemyL.transform);
 			EnemyList.Add (enemy);
 			SpawnTimer = SpawnRate;
 			SpawnedEnemyAmt++;

@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 5ea149e5c35999d47b84cfa57637f0b0
+timeCreated: 1487928913
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bow_Bone00
+    100002: Bow_Bone01
+    100004: Bow_Bone02
+    100006: Bow_Bone03
+    100008: Bow_Bone04
+    100010: Bow_Bone05
+    100012: Bow_Bone06
+    100014: Bow_Bone07
+    100016: Bow_Bone08
+    100018: Bow_Bone09
+    100020: Bow_Bone10
+    100022: Bow_Bone11
+    100024: Bow_Bone12
+    100026: Bow_Bone13
+    100028: Bow_BoneTip00
+    100030: Bow_BoneTip01
+    100032: Bow_BoneTip02
+    100034: Bow_BoneTip03
+    100036: Bow_Controler
+    100038: Bow_Helper
+    100040: Bow_Helper01
+    100042: Bow_Helper02
+    100044: Cylinder001
+    100046: Cylinder002
+    100048: Dummy001
+    100050: LP_Rama Final
+    100052: Rama Base
+    100054: Rama BaseHead
+    100056: Rama BaseHeadGizmo
+    100058: Rama BaseLCalf
+    100060: Rama BaseLCalfGizmo
+    100062: Rama BaseLCollarbone
+    100064: Rama BaseLCollarboneGizmo
+    100066: Rama BaseLDigit11
+    100068: Rama BaseLDigit11 1
+    100070: Rama BaseLDigit11Gizmo
+    100072: Rama BaseLDigit12
+    100074: Rama BaseLDigit12 1
+    100076: Rama BaseLDigit12Gizmo
+    100078: Rama BaseLDigit12Gizmo 1
+    100080: Rama BaseLDigit13
+    100082: Rama BaseLDigit13Gizmo
+    100084: Rama BaseLDigit21
+    100086: Rama BaseLDigit21Gizmo
+    100088: Rama BaseLDigit22
+    100090: Rama BaseLDigit22Gizmo
+    100092: Rama BaseLDigit23
+    100094: Rama BaseLDigit23Gizmo
+    100096: Rama BaseLDigit31
+    100098: Rama BaseLDigit31Gizmo
+    100100: Rama BaseLDigit32
+    100102: Rama BaseLDigit32Gizmo
+    100104: Rama BaseLDigit33
+    100106: Rama BaseLDigit33Gizmo
+    100108: Rama BaseLDigit41
+    100110: Rama BaseLDigit41Gizmo
+    100112: Rama BaseLDigit42
+    100114: Rama BaseLDigit42Gizmo
+    100116: Rama BaseLDigit43
+    100118: Rama BaseLDigit43Gizmo
+    100120: Rama BaseLFoot
+    100122: Rama BaseLFootGizmo
+    100124: Rama BaseLForearm
+    100126: Rama BaseLForearmGizmo
+    100128: Rama BaseLPalm
+    100130: Rama BaseLPalmGizmo
+    100132: Rama BaseLPlatform
+    100134: Rama BaseLThigh
+    100136: Rama BaseLThighGizmo
+    100138: Rama BaseLUpperarm
+    100140: Rama BaseLUpperarmGizmo
+    100142: Rama BaseNeck1
+    100144: Rama BaseNeck2
+    100146: Rama BaseNeck2Gizmo
+    100148: Rama BasePelvis
+    100150: Rama BasePelvisGizmo
+    100152: Rama BaseRCalf
+    100154: Rama BaseRCalfGizmo
+    100156: Rama BaseRCollarbone
+    100158: Rama BaseRCollarboneGizmo
+    100160: Rama BaseRDigit11
+    100162: Rama BaseRDigit11 1
+    100164: Rama BaseRDigit11Gizmo
+    100166: Rama BaseRDigit12
+    100168: Rama BaseRDigit12 1
+    100170: Rama BaseRDigit12Gizmo
+    100172: Rama BaseRDigit12Gizmo 1
+    100174: Rama BaseRDigit13
+    100176: Rama BaseRDigit13Gizmo
+    100178: Rama BaseRDigit21
+    100180: Rama BaseRDigit21Gizmo
+    100182: Rama BaseRDigit22
+    100184: Rama BaseRDigit22Gizmo
+    100186: Rama BaseRDigit23
+    100188: Rama BaseRDigit23Gizmo
+    100190: Rama BaseRDigit31
+    100192: Rama BaseRDigit31Gizmo
+    100194: Rama BaseRDigit32
+    100196: Rama BaseRDigit32Gizmo
+    100198: Rama BaseRDigit33
+    100200: Rama BaseRDigit33Gizmo
+    100202: Rama BaseRDigit41
+    100204: Rama BaseRDigit41Gizmo
+    100206: Rama BaseRDigit42
+    100208: Rama BaseRDigit42Gizmo
+    100210: Rama BaseRDigit43
+    100212: Rama BaseRDigit43Gizmo
+    100214: Rama BaseRFoot
+    100216: Rama BaseRFootGizmo
+    100218: Rama BaseRForearm
+    100220: Rama BaseRForearmGizmo
+    100222: Rama BaseRibcage
+    100224: Rama BaseRibcageGizmo
+    100226: Rama BaseRPalm
+    100228: Rama BaseRPalmGizmo
+    100230: Rama BaseRPlatform
+    100232: Rama BaseRThigh
+    100234: Rama BaseRThighGizmo
+    100236: Rama BaseRUpperarm
+    100238: Rama BaseRUpperarmGizmo
+    100240: Rama BaseSpine1
+    100242: Rama BaseSpine2
+    100244: Rama BaseSpine3
+    100246: Rama BaseSpine4
+    100248: //RootNode
+    100250: sword
+    400000: Bow_Bone00
+    400002: Bow_Bone01
+    400004: Bow_Bone02
+    400006: Bow_Bone03
+    400008: Bow_Bone04
+    400010: Bow_Bone05
+    400012: Bow_Bone06
+    400014: Bow_Bone07
+    400016: Bow_Bone08
+    400018: Bow_Bone09
+    400020: Bow_Bone10
+    400022: Bow_Bone11
+    400024: Bow_Bone12
+    400026: Bow_Bone13
+    400028: Bow_BoneTip00
+    400030: Bow_BoneTip01
+    400032: Bow_BoneTip02
+    400034: Bow_BoneTip03
+    400036: Bow_Controler
+    400038: Bow_Helper
+    400040: Bow_Helper01
+    400042: Bow_Helper02
+    400044: Cylinder001
+    400046: Cylinder002
+    400048: Dummy001
+    400050: LP_Rama Final
+    400052: Rama Base
+    400054: Rama BaseHead
+    400056: Rama BaseHeadGizmo
+    400058: Rama BaseLCalf
+    400060: Rama BaseLCalfGizmo
+    400062: Rama BaseLCollarbone
+    400064: Rama BaseLCollarboneGizmo
+    400066: Rama BaseLDigit11
+    400068: Rama BaseLDigit11 1
+    400070: Rama BaseLDigit11Gizmo
+    400072: Rama BaseLDigit12
+    400074: Rama BaseLDigit12 1
+    400076: Rama BaseLDigit12Gizmo
+    400078: Rama BaseLDigit12Gizmo 1
+    400080: Rama BaseLDigit13
+    400082: Rama BaseLDigit13Gizmo
+    400084: Rama BaseLDigit21
+    400086: Rama BaseLDigit21Gizmo
+    400088: Rama BaseLDigit22
+    400090: Rama BaseLDigit22Gizmo
+    400092: Rama BaseLDigit23
+    400094: Rama BaseLDigit23Gizmo
+    400096: Rama BaseLDigit31
+    400098: Rama BaseLDigit31Gizmo
+    400100: Rama BaseLDigit32
+    400102: Rama BaseLDigit32Gizmo
+    400104: Rama BaseLDigit33
+    400106: Rama BaseLDigit33Gizmo
+    400108: Rama BaseLDigit41
+    400110: Rama BaseLDigit41Gizmo
+    400112: Rama BaseLDigit42
+    400114: Rama BaseLDigit42Gizmo
+    400116: Rama BaseLDigit43
+    400118: Rama BaseLDigit43Gizmo
+    400120: Rama BaseLFoot
+    400122: Rama BaseLFootGizmo
+    400124: Rama BaseLForearm
+    400126: Rama BaseLForearmGizmo
+    400128: Rama BaseLPalm
+    400130: Rama BaseLPalmGizmo
+    400132: Rama BaseLPlatform
+    400134: Rama BaseLThigh
+    400136: Rama BaseLThighGizmo
+    400138: Rama BaseLUpperarm
+    400140: Rama BaseLUpperarmGizmo
+    400142: Rama BaseNeck1
+    400144: Rama BaseNeck2
+    400146: Rama BaseNeck2Gizmo
+    400148: Rama BasePelvis
+    400150: Rama BasePelvisGizmo
+    400152: Rama BaseRCalf
+    400154: Rama BaseRCalfGizmo
+    400156: Rama BaseRCollarbone
+    400158: Rama BaseRCollarboneGizmo
+    400160: Rama BaseRDigit11
+    400162: Rama BaseRDigit11 1
+    400164: Rama BaseRDigit11Gizmo
+    400166: Rama BaseRDigit12
+    400168: Rama BaseRDigit12 1
+    400170: Rama BaseRDigit12Gizmo
+    400172: Rama BaseRDigit12Gizmo 1
+    400174: Rama BaseRDigit13
+    400176: Rama BaseRDigit13Gizmo
+    400178: Rama BaseRDigit21
+    400180: Rama BaseRDigit21Gizmo
+    400182: Rama BaseRDigit22
+    400184: Rama BaseRDigit22Gizmo
+    400186: Rama BaseRDigit23
+    400188: Rama BaseRDigit23Gizmo
+    400190: Rama BaseRDigit31
+    400192: Rama BaseRDigit31Gizmo
+    400194: Rama BaseRDigit32
+    400196: Rama BaseRDigit32Gizmo
+    400198: Rama BaseRDigit33
+    400200: Rama BaseRDigit33Gizmo
+    400202: Rama BaseRDigit41
+    400204: Rama BaseRDigit41Gizmo
+    400206: Rama BaseRDigit42
+    400208: Rama BaseRDigit42Gizmo
+    400210: Rama BaseRDigit43
+    400212: Rama BaseRDigit43Gizmo
+    400214: Rama BaseRFoot
+    400216: Rama BaseRFootGizmo
+    400218: Rama BaseRForearm
+    400220: Rama BaseRForearmGizmo
+    400222: Rama BaseRibcage
+    400224: Rama BaseRibcageGizmo
+    400226: Rama BaseRPalm
+    400228: Rama BaseRPalmGizmo
+    400230: Rama BaseRPlatform
+    400232: Rama BaseRThigh
+    400234: Rama BaseRThighGizmo
+    400236: Rama BaseRUpperarm
+    400238: Rama BaseRUpperarmGizmo
+    400240: Rama BaseSpine1
+    400242: Rama BaseSpine2
+    400244: Rama BaseSpine3
+    400246: Rama BaseSpine4
+    400248: //RootNode
+    400250: sword
+    2300000: sword
+    3300000: sword
+    4300000: LP_Rama Final
+    4300002: sword
+    4300004: Cylinder001
+    4300006: Cylinder002
+    7400000: RAMA_AIM
+    9500000: //RootNode
+    13700000: Cylinder001
+    13700002: Cylinder002
+    13700004: LP_Rama Final
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RAMA_AIM
+      takeName: Take 001
+      firstFrame: 443
+      lastFrame: 525
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bow_Bone12
+        weight: 1
+      - path: Bow_Bone12/Bow_BoneTip01
+        weight: 1
+      - path: Bow_Bone13
+        weight: 1
+      - path: Bow_Bone13/Bow_BoneTip02
+        weight: 1
+      - path: Bow_Controler
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00/Bow_Bone01
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00/Bow_Bone01/Bow_Bone02
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00/Bow_Bone01/Bow_Bone02/Bow_Bone03
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00/Bow_Bone01/Bow_Bone02/Bow_Bone03/Bow_Bone04
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00/Bow_Bone01/Bow_Bone02/Bow_Bone03/Bow_Bone04/Bow_Bone05
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00/Bow_Bone01/Bow_Bone02/Bow_Bone03/Bow_Bone04/Bow_Bone05/Bow_BoneTip03
+        weight: 1
+      - path: Bow_Controler/Bow_Bone00/Bow_Bone01/Bow_Bone02/Bow_Bone03/Bow_Bone04/Bow_Bone05/Bow_Helper01
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06/Bow_Bone07
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06/Bow_Bone07/Bow_Bone08
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06/Bow_Bone07/Bow_Bone08/Bow_Bone09
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06/Bow_Bone07/Bow_Bone08/Bow_Bone09/Bow_Bone10
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06/Bow_Bone07/Bow_Bone08/Bow_Bone09/Bow_Bone10/Bow_Bone11
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06/Bow_Bone07/Bow_Bone08/Bow_Bone09/Bow_Bone10/Bow_Bone11/Bow_BoneTip00
+        weight: 1
+      - path: Bow_Controler/Bow_Bone06/Bow_Bone07/Bow_Bone08/Bow_Bone09/Bow_Bone10/Bow_Bone11/Bow_Helper02
+        weight: 1
+      - path: Bow_Controler/Bow_Helper
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Cylinder002
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: LP_Rama Final
+        weight: 1
+      - path: Rama Base
+        weight: 1
+      - path: Rama BaseHeadGizmo
+        weight: 1
+      - path: Rama BaseLCalfGizmo
+        weight: 1
+      - path: Rama BaseLCollarboneGizmo
+        weight: 1
+      - path: Rama BaseLDigit11Gizmo
+        weight: 1
+      - path: Rama BaseLDigit12Gizmo
+        weight: 1
+      - path: Rama BaseLDigit12Gizmo 1
+        weight: 1
+      - path: Rama BaseLDigit13Gizmo
+        weight: 1
+      - path: Rama BaseLDigit21Gizmo
+        weight: 1
+      - path: Rama BaseLDigit22Gizmo
+        weight: 1
+      - path: Rama BaseLDigit23Gizmo
+        weight: 1
+      - path: Rama BaseLDigit31Gizmo
+        weight: 1
+      - path: Rama BaseLDigit32Gizmo
+        weight: 1
+      - path: Rama BaseLDigit33Gizmo
+        weight: 1
+      - path: Rama BaseLDigit41Gizmo
+        weight: 1
+      - path: Rama BaseLDigit42Gizmo
+        weight: 1
+      - path: Rama BaseLDigit43Gizmo
+        weight: 1
+      - path: Rama BaseLFootGizmo
+        weight: 1
+      - path: Rama BaseLForearmGizmo
+        weight: 1
+      - path: Rama BaseLPalmGizmo
+        weight: 1
+      - path: Rama BaseLPlatform
+        weight: 1
+      - path: Rama BaseLThighGizmo
+        weight: 1
+      - path: Rama BaseLUpperarmGizmo
+        weight: 1
+      - path: Rama BaseNeck2Gizmo
+        weight: 1
+      - path: Rama BasePelvis
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseLThigh
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseLThigh/Rama BaseLCalf
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseLThigh/Rama BaseLCalf/Rama BaseLFoot
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseLThigh/Rama BaseLCalf/Rama BaseLFoot/Rama BaseLDigit11
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseLThigh/Rama BaseLCalf/Rama BaseLFoot/Rama BaseLDigit11/Rama
+          BaseLDigit12
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseRThigh
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseRThigh/Rama BaseRCalf
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseRThigh/Rama BaseRCalf/Rama BaseRFoot
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseRThigh/Rama BaseRCalf/Rama BaseRFoot/Rama BaseRDigit11
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseRThigh/Rama BaseRCalf/Rama BaseRFoot/Rama BaseRDigit11/Rama
+          BaseRDigit12
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit11 1
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit11 1/Rama BaseLDigit12 1
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit11 1/Rama BaseLDigit12 1/Rama
+          BaseLDigit13
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit21
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit21/Rama BaseLDigit22
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit21/Rama BaseLDigit22/Rama BaseLDigit23
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit31
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit31/Rama BaseLDigit32
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit31/Rama BaseLDigit32/Rama BaseLDigit33
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit41
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit41/Rama BaseLDigit42
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseLCollarbone/Rama BaseLUpperarm/Rama
+          BaseLForearm/Rama BaseLPalm/Rama BaseLDigit41/Rama BaseLDigit42/Rama BaseLDigit43
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseNeck1
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseNeck1/Rama BaseNeck2
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseNeck1/Rama BaseNeck2/Rama BaseHead
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit11 1
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit11 1/Rama BaseRDigit12 1
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit11 1/Rama BaseRDigit12 1/Rama
+          BaseRDigit13
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit21
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit21/Rama BaseRDigit22
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit21/Rama BaseRDigit22/Rama BaseRDigit23
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit31
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit31/Rama BaseRDigit32
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit31/Rama BaseRDigit32/Rama BaseRDigit33
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit41
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit41/Rama BaseRDigit42
+        weight: 1
+      - path: Rama BasePelvis/Rama BaseSpine1/Rama BaseSpine2/Rama BaseSpine3/Rama
+          BaseSpine4/Rama BaseRibcage/Rama BaseRCollarbone/Rama BaseRUpperarm/Rama
+          BaseRForearm/Rama BaseRPalm/Rama BaseRDigit41/Rama BaseRDigit42/Rama BaseRDigit43
+        weight: 1
+      - path: Rama BasePelvisGizmo
+        weight: 1
+      - path: Rama BaseRCalfGizmo
+        weight: 1
+      - path: Rama BaseRCollarboneGizmo
+        weight: 1
+      - path: Rama BaseRDigit11Gizmo
+        weight: 1
+      - path: Rama BaseRDigit12Gizmo
+        weight: 1
+      - path: Rama BaseRDigit12Gizmo 1
+        weight: 1
+      - path: Rama BaseRDigit13Gizmo
+        weight: 1
+      - path: Rama BaseRDigit21Gizmo
+        weight: 1
+      - path: Rama BaseRDigit22Gizmo
+        weight: 1
+      - path: Rama BaseRDigit23Gizmo
+        weight: 1
+      - path: Rama BaseRDigit31Gizmo
+        weight: 1
+      - path: Rama BaseRDigit32Gizmo
+        weight: 1
+      - path: Rama BaseRDigit33Gizmo
+        weight: 1
+      - path: Rama BaseRDigit41Gizmo
+        weight: 1
+      - path: Rama BaseRDigit42Gizmo
+        weight: 1
+      - path: Rama BaseRDigit43Gizmo
+        weight: 1
+      - path: Rama BaseRFootGizmo
+        weight: 1
+      - path: Rama BaseRForearmGizmo
+        weight: 1
+      - path: Rama BaseRibcageGizmo
+        weight: 1
+      - path: Rama BaseRPalmGizmo
+        weight: 1
+      - path: Rama BaseRPlatform
+        weight: 1
+      - path: Rama BaseRThighGizmo
+        weight: 1
+      - path: Rama BaseRUpperarmGizmo
+        weight: 1
+      - path: sword
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

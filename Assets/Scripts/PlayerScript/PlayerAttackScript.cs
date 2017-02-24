@@ -3,8 +3,7 @@ using System.Collections;
 
 public class PlayerAttackScript : MonoBehaviour {
 
-	public EnemyLockOnScript enemyLockOnScript;
-	public PlayerMovementScript playermovementScript;
+	public XboxPlayerControlScript xboxScript;
 	public CharacterStatsScript characterstats;
 	public GameObject Melee_Emitter;
 	public GameObject Melee;
@@ -20,9 +19,12 @@ public class PlayerAttackScript : MonoBehaviour {
 	public float MeleeAttRate = 0.0f;
 	public float RangeAttRate = 0.0f;
 	public static int numberofattack = 1;
-	public float ChargeTime = 3.0f;
-	public float ChargeDuration = 0.0f;
+	public float MeleeChargeTimer = 3.0f;
+	public float MeleeChargeDuration = 0.0f;
+	public float RangeChargeDuration = 0.0f;
+	public float RangeChargeTimer = 3.0f;
 	public float SpinDuration = 0.0f;
+	public float TimeTakenToStartCharge = 0.3f;
 	float angle = 0.0f;
 	public static bool spinAttack = false;
 	GameObject MeleeEnemy;
@@ -32,6 +34,16 @@ public class PlayerAttackScript : MonoBehaviour {
 
 	bool Alive = true;
 	public bool isAttack = false;
+	public bool isCharging = false;
+	public bool isMelee = false;
+	public bool isRange = false;
+
+	public Animator anim;
+	public AnimatorStateInfo BS;
+	public int Shoot = Animator.StringToHash ("Base Layer.Shoot");
+	public int Attack1 = Animator.StringToHash ("UpperBodyLayer.Attack1");
+	public int Attack2 = Animator.StringToHash ("UpperBodyLayer.Attack2");
+	public int Attack3 = Animator.StringToHash ("UpperBodyLayer.Attack3");
 
 	public enum ATTACK
 	{
@@ -47,16 +59,28 @@ public class PlayerAttackScript : MonoBehaviour {
 		attack = PlayerAttackScript.ATTACK.MELEE;
 		PlayerMovementScript.isMelee = true;
 		StartCoroutine ("att");
-		ChargeBarUI.SetActive (false);
+		//-ChargeBarUI.SetActive (false);
 		characterstats = gameObject.GetComponent<CharacterStatsScript> ();
+		xboxScript = GetComponent<XboxPlayerControlScript> ();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		if ((Input.GetMouseButton (1) || Input.GetButton("X360_B"))){
+		BS = anim.GetCurrentAnimatorStateInfo (0);
+		//anim.SetBool ("Aim", false);
+		//anim.SetBool ("Shoot", false);
+		if (BS.fullPathHash == Shoot) 
+		{
+			anim.SetBool ("Shoot", false);
+		}
+		if (Input.GetButton("X360_B") && !isAttack && !spinAttack)
+		{
 			attack = PlayerAttackScript.ATTACK.RANGE;
-		} else if (Input.GetMouseButton (0) || Input.GetButton("X360_X")) {
+			anim.SetBool ("Aim", true);
+		} 
+		else if (Input.GetButton("X360_X"))
+		{
 			attack = PlayerAttackScript.ATTACK.MELEE;
 		}
 		
@@ -75,30 +99,61 @@ public class PlayerAttackScript : MonoBehaviour {
 			numberofattack = 1;
 		}
 
-		if (Input.GetKey (KeyCode.C) || Input.GetMouseButton (1) || Input.GetButton("X360_B") || Input.GetButton("X360_X") ) {
-			ChargeDuration += Time.fixedDeltaTime;
+		if (Input.GetButton ("X360_X") && !isAttack && !spinAttack && !XboxPlayerControlScript.isRoll && !isRange)
+		{
+			isMelee = true;
+			MeleeChargeDuration += Time.fixedDeltaTime;
+			if (MeleeChargeDuration > 3.0f) {
+				MeleeChargeDuration = 3.0f;
+			}
+		} 
+		if (Input.GetButton ("X360_B") && !isAttack && !spinAttack && !XboxPlayerControlScript.isRoll && !isMelee) 
+		{
+			isRange = true;
+			RangeChargeDuration += Time.fixedDeltaTime;
+			if (RangeChargeDuration > 3.0f) 
+			{
+				RangeChargeDuration = 3.0f;
+			}
 		}
-		if (ChargeDuration > 0.3f) {
-			ChargeBarUI.SetActive (true);
-		}else 
-			ChargeBarUI.SetActive (false);
+		if (MeleeChargeDuration > TimeTakenToStartCharge) {
+			isCharging = true;
+			ChargeBarUI.GetComponent<ChargeBarScript> ().chargeDuration = MeleeChargeDuration;
+			//ChargeBarUI.SetActive (true);
+		}
+		if(RangeChargeDuration > TimeTakenToStartCharge)
+		{
+			isCharging = true;
+			ChargeBarUI.GetComponent<ChargeBarScript> ().chargeDuration = RangeChargeDuration;
+		}else {
+			ChargeBarUI.GetComponent<ChargeBarScript> ().ratio = 0.0f;
+			isCharging = false;
+			//ChargeBarUI.SetActive (false);
+		}
 
-		if (Input.GetButton ("X360_B") && ChargeDuration > 0.3f) {
+		if (Input.GetButton ("X360_B") && RangeChargeDuration > TimeTakenToStartCharge) {
 			XboxPlayerControlScript.isStartCharged = true;
-		} else
+			anim.SetBool ("Aim", true);
+		} else {
 			XboxPlayerControlScript.isStartCharged = false;
-
-		if (spinAttack) {
+			anim.SetBool ("Aim", false);
+		}
+		if (spinAttack) 
+		{
+			//anim.SetBool("Spin",true);
+			//anim.SetBool ("Run", false);
 			isAttack = true;
 			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.Euler (0, angle, 0), 10.0f);
 			angle+= 10.0f;
 			SpinDuration -= Time.fixedDeltaTime;
 			if (SpinDuration <= 0.0f) {
+				isMelee = false;
 				spinAttack = false;
 				isAttack = false;
 				SpinDuration = 0.0f;
 				Destroy (temp_SpinAtt);
 				temp_SpinAtt = null;
+				anim.SetBool("Spin",false);
 			}
 		}
 	}
@@ -123,8 +178,8 @@ public class PlayerAttackScript : MonoBehaviour {
 	void MeleeAtt()
 	{
 		GameObject Temporary_Melee_Handler = null;
-		if (Input.GetKeyUp (KeyCode.C)  || Input.GetButtonUp("X360_X") && numberofattack == 1 && !isAttack && PlayerControlScript.isRoll == false && !TextManagerScript.conversationStarted && ChargeDuration <= 0.3f) {
-			ChargeDuration = 0.0f;
+		if (Input.GetButtonUp ("X360_X") && numberofattack == 1 && !isAttack && PlayerControlScript.isRoll == false && !TextManagerScript.conversationStarted && MeleeChargeDuration < TimeTakenToStartCharge) {
+			MeleeChargeDuration = 0.0f;
 			if (MeleeAttRate <= 0.0f) {
 				numberofattack = 2;
 				Temporary_Melee_Handler = Instantiate (Melee, Melee_Emitter.transform.position, Melee_Emitter.transform.rotation) as GameObject;
@@ -132,28 +187,46 @@ public class PlayerAttackScript : MonoBehaviour {
 				MeleeAttRate = characterstats.MeleeAttRate;
 				isAttack = true;
 				AttackComboCancelTimer = ACCDuration;
-
+				isMelee = false;
 			}
 			Destroy (Temporary_Melee_Handler, 2.0f);
-		} else if (Input.GetKeyUp (KeyCode.C)  || Input.GetButtonUp("X360_X") && numberofattack == 2 && !isAttack && XboxPlayerControlScript.isRoll == false && ChargeDuration < 0.3f) {
-			ChargeDuration = 0.0f;
+		} else if (Input.GetButtonUp ("X360_X") && numberofattack == 2 && !isAttack && XboxPlayerControlScript.isRoll == false && MeleeChargeDuration < TimeTakenToStartCharge) {
+			MeleeChargeDuration = 0.0f;
 			if (MeleeAttRate <= 0.0f) {
-				numberofattack = 1;
+				numberofattack = 3;
 				Temporary_Melee_Handler = Instantiate (Melee2, Melee_Emitter.transform.position, Melee_Emitter.transform.rotation) as GameObject;
+				Temporary_Melee_Handler.transform.parent = transform;
+				MeleeAttRate = characterstats.MeleeAttRate;
+				isAttack = true;
+				AttackComboCancelTimer = ACCDuration;
+				isMelee = false;
+			} 
+			Destroy (Temporary_Melee_Handler, 2.0f);
+		} else if (Input.GetButtonUp ("X360_X") && numberofattack == 3 && !isAttack && XboxPlayerControlScript.isRoll == false && MeleeChargeDuration < TimeTakenToStartCharge) {
+			MeleeChargeDuration = 0.0f;
+			if (MeleeAttRate <= 0.0f) {
+				Debug.Log ("Run");
+				isMelee = false;
+				numberofattack = 1;
+				Temporary_Melee_Handler = Instantiate (Melee, Melee_Emitter.transform.position, Melee_Emitter.transform.rotation) as GameObject;
 				Temporary_Melee_Handler.transform.parent = transform;
 				MeleeAttRate = characterstats.MeleeAttRate;
 				isAttack = true;
 				AttackComboCancelTimer = ACCDuration;
 			} 
 			Destroy (Temporary_Melee_Handler, 2.0f);
-		} else if ((Input.GetKeyUp (KeyCode.C) || Input.GetButtonUp("X360_X")) && ChargeDuration > 0.3f && !isAttack && XboxPlayerControlScript.isRoll == false) {
-			SpinDuration = ChargeDuration;
+		} else if (Input.GetButtonUp ("X360_X") && MeleeChargeDuration > TimeTakenToStartCharge && !isAttack && XboxPlayerControlScript.isRoll == false) {
+			SpinDuration = MeleeChargeDuration;
 			if (SpinDuration > 3.0f) {
 				SpinDuration = 3.0f;
 			}
-			ChargeDuration = 0.0f;
+			MeleeChargeDuration = 0.0f;
+			ChargeBarUI.GetComponent<ChargeBarScript> ().chargeDuration = MeleeChargeDuration;
 			if (MeleeAttRate <= 0.0f) {
 				ChargeMeleeAttack (SpinDuration);
+
+				anim.SetBool ("Spin", true);
+				anim.SetBool ("Run", false);
 			}
 		}
 	}
@@ -162,49 +235,62 @@ public class PlayerAttackScript : MonoBehaviour {
 	{
 		//temp_SpinAtt = Instantiate (SpinAttack, Melee_Emitter.transform.position, Melee_Emitter.transform.rotation) as GameObject;
 		//temp_SpinAtt.transform.parent = transform;
+
 		spinAttack = true;	
 		MeleeAttRate = characterstats.MeleeAttRate;
 		isAttack = true;
 		GameObject[] MeleeEnemy = GameObject.FindGameObjectsWithTag ("MeleeEnemy");
-		foreach (GameObject n in MeleeEnemy) {
+		foreach (GameObject n in MeleeEnemy) 
+		{
 			Destroy (n);
 			characterstats.movementSpeed = 5.0f;
 		}
+
 
 	}
 
 	void Range()
 	{
 		GameObject Temporary_Bullet_Handler = null;
-		if (Input.GetMouseButtonUp (1) || Input.GetButtonUp("X360_B") && XboxPlayerControlScript.isRoll == false && !TextManagerScript.conversationStarted && ChargeDuration < 0.3f && !isAttack) {
-			if (RangeAttRate <= 0.0f) {
+		if (Input.GetButtonUp("X360_B") && XboxPlayerControlScript.isRoll == false && !TextManagerScript.conversationStarted && RangeChargeDuration < TimeTakenToStartCharge && !isAttack && !spinAttack) {
+			anim.SetBool ("Aim", false);
+			anim.SetBool ("Shoot", true);
+			if (RangeAttRate <= 0.0f) 
+			{
+				isRange = false;
 				Temporary_Bullet_Handler = Instantiate (Bullet, Bullet_Emitter.transform.position, Bullet_Emitter.transform.rotation) as GameObject;
-
 				Rigidbody Temporary_RigidBody;
 				Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody> ();
 
 				Temporary_RigidBody.AddForce (transform.forward * Bullet_Forward_Force);
 				RangeAttRate = characterstats.RangeAttRate;
-				ChargeDuration = 0.0f;
-			}
+				RangeChargeDuration = 0.0f;
+
+			} 
 			Destroy (Temporary_Bullet_Handler, 3.0f);
 		}
-		if (Input.GetMouseButtonUp (1) || Input.GetButtonUp("X360_B") && ChargeDuration > 0.3f && XboxPlayerControlScript.isRoll == false && !isAttack) {
-			if (ChargeDuration > 3.0f) {
-				ChargeDuration = 3.0f;
-			}
-			ChargeRangeAttack (ChargeDuration);
-			ChargeDuration = 0.0f;
+
+		if (Input.GetButtonUp("X360_B") && RangeChargeDuration > TimeTakenToStartCharge && XboxPlayerControlScript.isRoll == false && !isAttack && !spinAttack) {
+			isRange = false;
+			anim.SetBool ("Aim", false);
+			anim.SetBool ("Shoot", true);
+			ChargeRangeAttack (RangeChargeDuration);
+			RangeChargeDuration = 0.0f;
+			ChargeBarUI.GetComponent<ChargeBarScript> ().chargeDuration = RangeChargeDuration;
+			anim.SetBool ("Run", false);
+
 		}
 	}
 
 	void ChargeRangeAttack(float ChargeDuration)
 	{
+		
 		temp_bullet = Instantiate (Bullet, Bullet_Emitter.transform.position, Bullet_Emitter.transform.rotation) as GameObject;
 		Rigidbody Temp_rigid;
 		Temp_rigid = temp_bullet.GetComponent<Rigidbody> ();
 		Temp_rigid.AddForce (transform.forward * Bullet_Forward_Force*(1+(ChargeDuration/3.0f)));
 		RangeAttRate = characterstats.RangeAttRate;
+		isRange = false;
 		Destroy (temp_bullet, 3.0f);
 	}
 }

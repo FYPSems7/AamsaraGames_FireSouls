@@ -12,11 +12,14 @@ public class XboxPlayerControlScript : MonoBehaviour {
 	static int Run = Animator.StringToHash ("Base Layer.Run");
 	static int Idle = Animator.StringToHash ("Base Layer.Idle");
 	static int Roll = Animator.StringToHash("Base Layer.Roll");
-	static int StrafeLeft = Animator.StringToHash("Base Layer.StrafeLeft");
-	static int StrafeRight = Animator.StringToHash("Base Layer.StrafeRight");
-	static int StrafeBack = Animator.StringToHash("Base Layer.StrafeBack");
+	static int Aim = Animator.StringToHash ("Base Layer.Aim");
+	static int Shoot = Animator.StringToHash ("Base Layer.Shoot");
+	static int Spin = Animator.StringToHash ("Base Layer.Spin");
+
 	static int Attack = Animator.StringToHash("Base Layer.Attack");
 	static int Attack1 = Animator.StringToHash ("UpperBodyLayer.Attack");
+	static int Attack2 = Animator.StringToHash ("UpperBodyLayer.Attack2");
+	static int Attack3 = Animator.StringToHash ("UpperBodyLayer.Attack3");
 
 
 	bool isDodging = false;
@@ -35,7 +38,7 @@ public class XboxPlayerControlScript : MonoBehaviour {
 	float hAxis;
 	float vAxis;
 
-
+	float Temp_DodgeSpeed ;
 
 
 
@@ -44,12 +47,21 @@ public class XboxPlayerControlScript : MonoBehaviour {
 	{
 		characterstats = gameObject.GetComponent<CharacterStatsScript> ();
 		playerAttack = gameObject.GetComponent<PlayerAttackScript> ();
+		Temp_DodgeSpeed = characterstats.DodgeSpeed;
 	}
-	
+
+
+
 	// Update is called once per frame
 	void Update () 
 	{
-		anim.SetBool ("Attack", false);
+		BS = anim.GetCurrentAnimatorStateInfo (0);
+	
+		if (BS.fullPathHash == Roll) 
+		{
+			anim.SetBool ("Roll", false);
+		}
+
 		hAxis = Input.GetAxis ("Horizontal");
 		vAxis = Input.GetAxis ("Vertical");
 		if(isStartCharged || isRoll)
@@ -71,7 +83,7 @@ public class XboxPlayerControlScript : MonoBehaviour {
 		{
 		Movement ();
 		}
-		if (Input.GetButtonDown ("X360_A") && wallcolliderscript.ishitwall == false && !isRoll) 
+		if (Input.GetButtonDown ("X360_A") && wallcolliderscript.ishitwall == false && !isRoll && !playerAttack.isAttack && !playerAttack.isCharging) 
 		{
 			Debug.Log (wallcolliderscript.ishitwall);
 			isMovement = false;
@@ -82,19 +94,29 @@ public class XboxPlayerControlScript : MonoBehaviour {
 		if (isRoll) 
 		{
 			Dodge ();
+
+			Temp_DodgeSpeed *= 0.99f;
+			Debug.Log (Temp_DodgeSpeed);
 		}
 
 		if (isDodging == true) {
 			rolltimer += Time.fixedDeltaTime;
 		}
 			
-		if (Input.GetButtonDown ("X360_X") && !isRoll && !playerAttack.isAttack) {
+		if (Input.GetButtonDown ("X360_X") && !isRoll && !playerAttack.isAttack) 
+		{
 			anim.SetLayerWeight (1, 1f);
+
 			if (PlayerAttackScript.numberofattack == 1)
 				anim.SetInteger ("CurrentAction", 1);
 			else if (PlayerAttackScript.numberofattack == 2)
 				anim.SetInteger ("CurrentAction", 2);
-		} else if (Input.GetButtonUp ("X360_X")) {
+			else if (PlayerAttackScript.numberofattack == 3)
+				anim.SetInteger ("CurrentAction", 3);
+		} 
+		else if (Input.GetButtonUp ("X360_X")) 
+		{
+			
 			anim.SetInteger ("CurrentAction", 0);
 		}
 
@@ -103,11 +125,23 @@ public class XboxPlayerControlScript : MonoBehaviour {
 
 	void Movement()
 	{
-		if (hAxis!= 0 || vAxis!= 0)  {
+		if (hAxis!= 0 || vAxis!= 0)  
+		{
 			anim.SetBool ("Run", true);
-			transform.forward = Vector3.Normalize(new Vector3(hAxis, 0,vAxis));
-			transform.Translate (Vector3.forward * Time.deltaTime* characterstats.movementSpeed);
-		}else 
+			if (PlayerAttackScript.spinAttack == false) 
+			{
+				transform.forward = Vector3.Normalize(new Vector3(hAxis, 0,vAxis)); // Rotation 
+				transform.Translate (Vector3.forward * Time.deltaTime * characterstats.movementSpeed); // Movement
+			}
+			else if(PlayerAttackScript.spinAttack == true)
+			{
+				//transform.Translate (transform.position.x * hAxis,0,transform.position.z * vAxis);
+				Vector3 moveDirection = new Vector3(hAxis, 0,vAxis);
+				moveDirection *= characterstats.movementSpeed* 0.03f;
+				transform.Translate (moveDirection, Space.World);
+			}
+		}
+		else 
 			anim.SetBool ("Run", false);
 	}
 
@@ -119,8 +153,10 @@ public class XboxPlayerControlScript : MonoBehaviour {
 		transform.gameObject.GetComponent<BoxCollider> ().enabled = false;
 		isDodging = true;
 
-		transform.Translate (Vector3.forward * Time.deltaTime* characterstats.movementSpeed * characterstats.DodgeSpeed );
+		transform.Translate (Vector3.forward * Time.deltaTime* characterstats.movementSpeed * Temp_DodgeSpeed );
+
 		if (rolltimer >= rollduration) {
+			Temp_DodgeSpeed = characterstats.DodgeSpeed;
 			LockDirection = false;
 			isDodging = false;
 			isRoll = false;

@@ -7,8 +7,9 @@ public class ChargeBarScript : MonoBehaviour {
 
 	public Image ChargeBar;
 	public PlayerAttackScript playerAttackScript;
-	private float chargeDuration;
+	public float chargeDuration;
 	private float MaxChargeDuration = 3.0f;
+	public float ratio;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +18,6 @@ public class ChargeBarScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		chargeDuration = playerAttackScript.ChargeDuration;
 		if (chargeDuration >= 3.0f) {
 			chargeDuration = 3.0f;
 		}
@@ -30,7 +30,7 @@ public class ChargeBarScript : MonoBehaviour {
 
 	private void ChargeBarUpdate()
 	{
-		float ratio = (float)chargeDuration / (float)MaxChargeDuration;
+		ratio = (float)chargeDuration / (float)MaxChargeDuration;
 		ChargeBar.rectTransform.localScale = new Vector3 (ratio, 1, 1);
 	}
 }

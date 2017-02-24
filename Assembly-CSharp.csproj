@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B9B75D9C-8AA7-AED7-04E2-6FF94ABDD49C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Softwares/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Softwares/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ArtAssets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\EnemyScript\AIscript.cs" />
+     <Compile Include="Assets\EnemyScript\EnemyShoot.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_Animation.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_Attack.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_Charge.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_Detection.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_Health.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_Master.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_NavDestinationReach.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_NavEnemyWander.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_NavPause.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_NavPursue.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_RagDollActivation.cs" />
+     <Compile Include="Assets\EnemyScript\Enemy_TakeDamage.cs" />
+     <Compile Include="Assets\EnemyScript\GameManager_Reference.cs" />
+     <Compile Include="Assets\EnemyScript\Kukkuta.cs" />
+     <Compile Include="Assets\EnemyScript\Spawner.cs" />
+     <Compile Include="Assets\LootScript.cs" />
+     <Compile Include="Assets\Scripts\AudioManagerScript.cs" />
+     <Compile Include="Assets\Scripts\BulletCollisionScript.cs" />
+     <Compile Include="Assets\Scripts\CheckpointScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyAttribute\EnemyAttibute.cs" />
+     <Compile Include="Assets\Scripts\EnemyAttribute\EnemyAttribute.cs" />
+     <Compile Include="Assets\Scripts\EnemyAttribute\EnemyAttributeListScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyAttribute\LevelManagerScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyBulletCollisionScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyLockOnScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyShootScript.cs" />
+     <Compile Include="Assets\Scripts\EnemySpawnScript.cs" />
+     <Compile Include="Assets\Scripts\NPCScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\CharacterSpawnScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\CharacterStatsScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\DeityCollisionScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\DeityToggleScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\LockOnScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\PlayerAttackScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\PlayerControlScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\PlayerMovementScript.cs" />
+     <Compile Include="Assets\Scripts\SelfDestructScript.cs" />
+     <Compile Include="Assets\Scripts\SpawnactiveScript.cs" />
+     <Compile Include="Assets\Scripts\TextManagerScript.cs" />
+     <Compile Include="Assets\Scripts\UI_Scripts\ChargeBarScript.cs" />
+     <Compile Include="Assets\Scripts\UI_Scripts\FireSoulUIScript.cs" />
+     <Compile Include="Assets\Scripts\UI_Scripts\PlayerHealthUIScript.cs" />
+     <Compile Include="Assets\Scripts\WallColliderScript.cs" />
+     <Compile Include="Assets\Scripts\XboxControlScript\XboxPlayerControlScript.cs" />
+     <Compile Include="Assets\TestingMinusHealthScript.cs" />
+     <None Include="Assets\TextFile\BlackSmithText1.txt" />
+     <None Include="Assets\ArtAssets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\TextFile\Conversation.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/Softwares/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

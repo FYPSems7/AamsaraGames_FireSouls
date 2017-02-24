@@ -7,31 +7,36 @@ public class Kukkuta : MonoBehaviour {
 
 
 	public CharacterStatsScript characterstatsscript;
-	public float initialAngle;
 
+	public float initialAngle;
+	private GameObject target;
 	private Transform myTarget;
 	private Transform myTransform;
-	private float attackRange = 9.0f;
-	private float detectionRange = 20.0f;
+	private float attackRange = 10.0f;
+	private float detectionRange = 30.0f;
 	private float moveSpeed = 5.0f;
 	private Rigidbody rb;
-	private bool finishJump;
 	private float Timer;
 	private float Timer2;
 	private float attackRate;
 	private float attackDamage = 5.0f;
 	private bool isReduced = false;
-
-
+	public bool isDetected= false;
+	private bool isRun = true;
+	private bool isjump;
+	public float dirNum;
 
 	void Awake()
 	{
 		myTransform = transform;
+		target = GameObject.FindGameObjectWithTag ("Player");
+		characterstatsscript = target.GetComponent <CharacterStatsScript> ();
 	}
 
 	void Start ()
 	{
-		finishJump = false;
+		isReduced = false;
+		isjump = false; 
 
 		rb = GetComponent<Rigidbody> ();
 
@@ -40,18 +45,74 @@ public class Kukkuta : MonoBehaviour {
 			myTarget = GameObject.FindWithTag ("Player").transform;
 		}
 
-		characterstatsscript = GameObject.FindGameObjectWithTag ("Player").GetComponent<CharacterStatsScript> ();
+	}
+		
+
+	void OnTriggerEnter(Collider other) 
+	{
+		if (other.CompareTag ("PlayerAttack")) 
+		{
+			Destroy (gameObject);
+		}
+
+		if (other.gameObject == target) 
+		{
+			transform.parent = myTarget.transform;
+			moveSpeed = 0.0f;
+			rb.isKinematic = true;
+			BoxCollider collider = gameObject.GetComponent<BoxCollider> ();
+			collider.isTrigger = true;
+			Attack();
+
+		} 
+
+		else if (isjump)
+			
+		{
+			moveSpeed = 0;
+		}
 
 	}
 
 
 	void Update()
 	{
+		Vector3 heading = myTarget.position - transform.position;
 
-		transform.LookAt(myTarget);
+		if (myTransform.position.y < 0) 
+		{
+			isRun = false; 
+			myTransform.position = new Vector3 (myTransform.position.x, 0.0f, myTransform.position.z);
+		} 
+		else 
+		{
+			isRun = true;
+		}
+			
+		if (isjump == true && isDetected == true && transform.parent != myTarget) 
+		{
+			
+			Timer += Time.deltaTime;
+
+			if (Timer >= 3) 
+			{
+				isjump = false;
+				isDetected = false;
+				Timer = 0;
+				moveSpeed = 5f;
+			}
+		}
+	}
+
+	void FixedUpdate()
+	{
+		
+
 
 		if (Vector3.Distance (transform.position, myTarget.position) <= detectionRange) 
 		{
+			transform.LookAt(myTarget, transform.up);
+			transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
 
 			transform.position += transform.forward * moveSpeed * Time.deltaTime;
 
@@ -59,49 +120,11 @@ public class Kukkuta : MonoBehaviour {
 			if(Vector3.Distance(transform.position,myTarget.position) <= attackRange)
 			{
 				Jump ();
-
-				if (finishJump == true) 
-				{
-					transform.parent = myTarget.transform;
-					Timer += Time.deltaTime;
-					if (!isReduced) {
-						characterstatsscript.movementSpeed -= 1.0f;
-						isReduced = true;
-					}
-					if (Timer >= 0.5) 
-					{
-						Timer2 += Time.deltaTime;
-						moveSpeed = 0.0f;
-
-						if (Timer2 >= 0.5) 
-						{
-							rb.isKinematic = true;
-							BoxCollider collider = gameObject.GetComponent<BoxCollider> ();
-							collider.isTrigger = true;
-							Attack ();
-
-						}
-
-					}
-
-
-				}
 			} 
 		}
-
-
-			
-			
-
 	}
 
-	void OnTriggerEnter(Collider other) 
-	{
-		if (other.CompareTag("PlayerAttack"))
-			
-			Destroy(gameObject);
 
-	}
 
 	void Attack()
 	{
@@ -110,47 +133,74 @@ public class Kukkuta : MonoBehaviour {
 
 		if (attackRate <= 0) 
 		{
-			//characterstatsscript.PlayerHealth -= attackDamage;
+			characterstatsscript.PlayerHealth -= attackDamage;
 			characterstatsscript.DmgTaken (attackDamage);
-			Debug.Log (moveSpeed);
+			//Debug.Log (moveSpeed);
 			attackRate = 1.1f;
+
+			if (!isReduced) 
+			{
+				characterstatsscript.movementSpeed -= 1.0f;
+				isReduced = true;
+			}
 		}
 	}
 
-
-
 	void Jump () 
 	{
+		RaycastHit hit;
 
-		Vector3 playerPos = myTarget.position;
+		Vector3 fwd = transform.TransformDirection(Vector3.forward);
+		Debug.DrawRay(transform.position, fwd * 100,Color.cyan);
 
-		float gravity = Physics.gravity.magnitude;
-		// Selected angle in radians
-		float angle = initialAngle * Mathf.Deg2Rad;
+		if(Physics.Raycast(transform.position,fwd, out hit, 100) && !isDetected  && !isjump)
 
-		// Positions of this object and the target on the same plane
-		Vector3 planarTarget = new Vector3(playerPos.x, 0, playerPos.z);
-		Vector3 planarPostion = new Vector3(transform.position.x, 0, transform.position.z);
+		{
+			
+			Debug.Log (hit.transform.name);
 
-		// Planar distance between objects
-		float distance = Vector3.Distance(planarTarget, planarPostion);
+			if (hit.collider.gameObject.tag == "Player") 
+			{
+				//isDetected = true;
+
+				//target = hit.collider.gameObject;
+
+				target = hit.transform.gameObject;
 
 
-		// Distance along the y axis between objects
-		float yOffset = transform.position.y - playerPos.y;
+				float gravity = Physics.gravity.magnitude;
+				// Selected angle in radians
+				float angle = initialAngle * Mathf.Deg2Rad;
 
-		float initialVelocity = (1 / Mathf.Cos(angle)) * Mathf.Sqrt((0.5f * gravity * Mathf.Pow(distance, 2)) / (distance * Mathf.Tan(angle) + yOffset));
+				// Positions of this object and the target on the same plane
+				Vector3 targetPosition = new Vector3(target.transform.position.x, 0,target.transform.position.z);
+				Vector3 currentPosition = new Vector3(transform.position.x, 0, transform.position.z);
 
-		Vector3 velocity = new Vector3(0, initialVelocity * Mathf.Sin(angle), initialVelocity * Mathf.Cos(angle));
+				// Planar distance between objects
+				float distance = Vector3.Distance(targetPosition, currentPosition);
 
-		// Rotate our velocity to match the direction between the two objects
-		float angleBetweenObjects = Vector3.Angle(Vector3.forward, planarTarget - planarPostion); //* (playerPos.x > transform.position.x ? 1 : -1);
-		Vector3 finalVelocity = Quaternion.AngleAxis(angleBetweenObjects, Vector3.up) * velocity;
+				// Distance along the y axis between objects
+				float yOffset = transform.position.y -target.transform.position.y;
 
-		// Fire!
-		rb.velocity = finalVelocity;
+				float initialVelocity = (1 / Mathf.Cos(angle)) * Mathf.Sqrt((0.5f * gravity * Mathf.Pow(distance, 2)) / (distance * Mathf.Tan(angle) + yOffset));
 
-		finishJump = true;
+				Vector3 velocity = new Vector3(0, initialVelocity * Mathf.Sin(angle), initialVelocity * Mathf.Cos(angle));
+
+				// Rotate our velocity to match the direction between the two objects
+				float angleBetweenObjects = Vector3.Angle(Vector3.forward, target.transform.position - currentPosition)* (target.transform.position.x > transform.position.x ? 1 : -1);; 
+
+
+				Vector3 finalVelocity = Quaternion.AngleAxis(angleBetweenObjects, Vector3.up) * velocity;
+				//Debug.Log ("Distance : " + distance);
+				// Fire!
+				rb.velocity = finalVelocity ;
+				//Debug.Log ("Final Velocity : " + finalVelocity);
+				isjump = true;
+				isDetected = true;
+			}
+
+
+		}
 
 	}
 		

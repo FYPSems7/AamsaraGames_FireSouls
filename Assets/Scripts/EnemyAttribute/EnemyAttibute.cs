@@ -23,7 +23,7 @@ public class EnemyAttibute : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log (eA.EnemyHealth);
+		//Debug.Log (eA.EnemyHealth);
 		if (eA.EnemyHealth <= 0) {
 			Destroy (gameObject);
 		}
@@ -31,7 +31,7 @@ public class EnemyAttibute : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		Debug.Log ("Run");
+		//Debug.Log ("Run");
 		if (other.gameObject.tag == "PlayerAttack") {
 			//eA.EnemyHealth -= (int)other.GetComponent<CharacterStatsScript> ().MeleeAttack;
 			DmgTaken((int)other.GetComponent<CharacterStatsScript> ().MeleeAttack);

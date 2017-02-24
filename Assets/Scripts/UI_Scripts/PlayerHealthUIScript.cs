@@ -27,6 +27,7 @@ public class PlayerHealthUIScript : MonoBehaviour {
 	void LateUpdate()
 	{
 		HealthBarUpdate ();
+
 	}
 
 	private void HealthBarUpdate()
